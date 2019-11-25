@@ -1,0 +1,22 @@
+{
+    "accounts": [
+        {
+            "accountBalanceInCents": 986000, "accountCurrency": "EUR",
+            "accountId": 748757694, "accountName": "Hr TD PlAIN", "accountNumber": 748787694, "accountType": "PAYMENT",
+            "alias": "",
+            "isVisible": true,
+            "iban": "NL23INGB0748757694"
+        }, {
+            "accountBalanceInCents": 1003000, "accountCurrency": "EUR", "accountId": 700004027559, "accountName": ",", "accountNumber": 748557732, "accountType": "PAYMENT", "alias": "",
+            "isVisible": false,
+            "iban": "NL88INGB0748757732" },
+        {
+            "accountBalanceInCents": 15000, "accountCurrency": "EUR",
+            "accountId": 704000027559, "accountName": "1, 2, 3",
+            "accountNumber": "H 177-27066", "accountType": "SAVING",
+            "alias": "G\\UfffdLSAVINGSdiacrits", "iban": "",
+            "isVisible": true,
+            "linkedAccountId": 747757694, "productName": "Oranje S", "productType": 1000, "savingsTargetReached": 1, "targetAmountInCents": 2500
+        } ],
+    "failedAccountTypes" : "CREDITCARDS",
+    "returnCode" : "OK" }
