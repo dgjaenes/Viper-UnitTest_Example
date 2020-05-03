@@ -11,6 +11,8 @@
 		430C4050238A9B8000B0DD47 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C404F238A9B8000B0DD47 /* Account.swift */; };
 		430E1123238BCFBB009AE191 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E1122238BCFBB009AE191 /* InitViewController.swift */; };
 		430FB4C62389F2CE00445572 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430FB4C52389F2CE00445572 /* BaseViewController.swift */; };
+		4333789C245F01B900C135A6 /* AccountReposiroryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333789B245F01B900C135A6 /* AccountReposiroryTest.swift */; };
+		4333789E245F038E00C135A6 /* AccountRepositotyStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333789D245F038E00C135A6 /* AccountRepositotyStub.swift */; };
 		436BF5B0245213E100DA105D /* InitScenePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BF5AF245213E100DA105D /* InitScenePresenterTest.swift */; };
 		439FF9B0238897EA00C6C8FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439FF9AF238897EA00C6C8FF /* AppDelegate.swift */; };
 		439FF9B5238897EA00C6C8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439FF9B3238897EA00C6C8FF /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 		430C404F238A9B8000B0DD47 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		430E1122238BCFBB009AE191 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
 		430FB4C52389F2CE00445572 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4333789B245F01B900C135A6 /* AccountReposiroryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountReposiroryTest.swift; sourceTree = "<group>"; };
+		4333789D245F038E00C135A6 /* AccountRepositotyStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepositotyStub.swift; sourceTree = "<group>"; };
 		436BF5A42452135000DA105D /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436BF5A82452135000DA105D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436BF5AF245213E100DA105D /* InitScenePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitScenePresenterTest.swift; sourceTree = "<group>"; };
@@ -100,9 +104,19 @@
 			path = InitScene;
 			sourceTree = "<group>";
 		};
+		4333789A245EF62F00C135A6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4333789B245F01B900C135A6 /* AccountReposiroryTest.swift */,
+				4333789D245F038E00C135A6 /* AccountRepositotyStub.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		436BF5A52452135000DA105D /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				4333789A245EF62F00C135A6 /* Domain */,
 				436BF5AE2452139200DA105D /* InitScene */,
 				436BF5A82452135000DA105D /* Info.plist */,
 			);
@@ -326,6 +340,8 @@
 			files = (
 				43C2519324521A5C00CBF8E1 /* InitSceneStub.swift in Sources */,
 				436BF5B0245213E100DA105D /* InitScenePresenterTest.swift in Sources */,
+				4333789C245F01B900C135A6 /* AccountReposiroryTest.swift in Sources */,
+				4333789E245F038E00C135A6 /* AccountRepositotyStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
